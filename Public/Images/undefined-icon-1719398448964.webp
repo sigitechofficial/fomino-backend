@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/images/favicon.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Fomino"
+      content="Fomino food app created using create-react-app"
+    />
+    <title>Fomino</title>
+
+    <!-- Inter Font -->
+    <link rel="stylesheet" href="/fonts/inter/inter.css" />
+
+    <!-- SF Pro Font -->
+    <link rel="stylesheet" href="/fonts/sf/sf.css" />
+
+    <!-- Switzer Font -->
+    <link rel="stylesheet" href="/fonts/switzer/switzer.css" />
+
+    <!-- Nunito Font -->
+    <link rel="stylesheet" href="/fonts/nunito/nunito.css" />
+
+    <!-- Poppins Font -->
+    <link rel="stylesheet" href="/fonts/poppins/poppins.css" />
+
+    <!-- TT Norms Font -->
+    <link rel="stylesheet" href="/fonts/tt/tt.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx?t=1719398418253"></script>
+  </body>
+</html>
