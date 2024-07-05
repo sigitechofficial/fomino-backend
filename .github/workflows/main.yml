@@ -69,4 +69,4 @@ jobs:
           server: ftp.fomino.ch
           username: ${{ secrets.TEST_FTP_USERNAME }}
           password: ${{ secrets.TEST_FTP_PASSWORD }}
-          server-dir: /
+          server-dir: /home/fomino/test.fomino.ch
