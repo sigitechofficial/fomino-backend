@@ -1,3 +1,4 @@
+
 version: 0.2
 phases:
   build:
@@ -6,4 +7,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  name: fominobackend-$(date +%Y-%m-%d) 
+  name: fominobackend-$(date +%Y-%m-%d)
