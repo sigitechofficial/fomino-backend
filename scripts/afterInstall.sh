@@ -10,4 +10,4 @@ sudo npm install -g pm2
 cd /home/ubuntu/fomino
 
 # Install project dependencies
-npm install
+npm install -f
