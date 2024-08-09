@@ -7,7 +7,7 @@ sudo yum install -y nodejs
 sudo npm install -g pm2
 
 # Navigate to the project directory
-cd /home/ubuntu/fomino
+cd /home/ubuntu/fomino-backend
 
 # Install project dependencies
 npm install -f
